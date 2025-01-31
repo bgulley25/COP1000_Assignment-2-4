@@ -1,11 +1,11 @@
 # input statements
-salary = 60000
-numDependents = 3
+salary = 30000
+numDependents = 6
 
 # calculate taxes here
 stateTax = (salary * .065)
 federalTax = (salary * .28)
-dependentDeduction = (salary * .075)
+dependentDeduction = (salary * .15)
 totalWitholding = stateTax + federalTax + dependentDeduction
 takeHomePay = salary - totalWitholding
 # output statements
